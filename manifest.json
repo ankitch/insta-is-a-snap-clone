@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name":"Insta is a snap Clone",
+    "description":"This extension because why not",
+    "version":"1.0",
+    "icons":{},
+    "content_scripts":[
+        {
+            "matches":[]
+        }
+    ]
+
+}
