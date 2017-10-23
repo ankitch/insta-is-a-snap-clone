@@ -1,12 +1,20 @@
 {
     "manifest_version": 2,
     "name":"Insta is a snap Clone",
-    "description":"This extension because why not",
+    "description":"This extension replaces ",
     "version":"1.0",
     "icons":{},
     "content_scripts":[
         {
-            "matches":[]
+            "matches":[
+                "*://*/*"
+            ],
+            "js":[
+                "rename-script.js"
+            ],
+            "run_at":"document_end"
+
+
         }
     ]
 
