@@ -3,7 +3,9 @@
     "name":"Insta is a snap Clone",
     "description":"This extension replaces ",
     "version":"1.0",
-    "icons":{},
+    "icons":{
+        "128":"icon.png"
+    },
     "content_scripts":[
         {
             "matches":[

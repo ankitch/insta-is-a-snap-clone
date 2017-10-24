@@ -1,2 +1,2 @@
-## insta-is-a-snap-clone
-#  insta-is-a-snap-clone is a chrome extension
+# insta-is-a-snap-clone
+## insta-is-a-snap-clone is a chrome extension boiiiiiiiiiii
