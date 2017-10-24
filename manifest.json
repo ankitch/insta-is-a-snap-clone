@@ -4,7 +4,9 @@
     "description":"This extension replaces ",
     "version":"1.0",
     "icons":{
-        "128":"icon.png"
+        "128":"128.png",
+        "48":"48.png",
+        "16":"16.png"
     },
     "content_scripts":[
         {
@@ -12,7 +14,7 @@
                 "*://*/*"
             ],
             "js":[
-                "rename-script.js"
+                "rename.js"
             ],
             "run_at":"document_end"
 
