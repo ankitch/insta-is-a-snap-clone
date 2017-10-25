@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name":"Insta is a snap Clone",
-    "description":"This extension replaces ",
+    "description":"This extension replaces Instagram with Snapchat Clone",
     "version":"1.0",
     "icons":{
         "128":"icons/128.png",
