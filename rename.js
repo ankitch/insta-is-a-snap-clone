@@ -1,8 +1,8 @@
 let domelements = document.getElementsByTagName('*');
-for (var i = 0; i < domelements.length; i++){
+for (let i = 0; i < domelements.length; i++){
     let elements = domelements[i];
 
-    for (var j = 0; j <elements.childNodes.length; j++){
+    for (let j = 0; j <elements.childNodes.length; j++){
         let node = elements.childNodes[j];
         
         if(node.nodeType === 3){
