@@ -4,9 +4,9 @@
     "description":"This extension replaces ",
     "version":"1.0",
     "icons":{
-        "128":"128.png",
-        "48":"48.png",
-        "16":"16.png"
+        "128":"icons/128.png",
+        "48":"icons/48.png",
+        "16":"icons/16.png"
     },
     "content_scripts":[
         {
