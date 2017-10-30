@@ -1,21 +1,19 @@
-let domelements = document.getElementsByTagName('*');
+const domelements = document.getElementsByTagName('*');
+
 for (let i = 0; i < domelements.length; i++){
     let elements = domelements[i];
 
     for (let j = 0; j <elements.childNodes.length; j++){
-        let node = elements.childNodes[j];
+        const node = elements.childNodes[j];
         
         if(node.nodeType === 3){
-            let text = node.nodeValue;
+            const text = node.nodeValue;
 
-            let replaceWithThis = text.replace(/Instagram/gi, "Snapchat Clone");
+            const replaceWithThis = text.replace(/Instagram/gi, "Snapchat Clone");
     
             if (replaceWithThis !== text){
-                elements.replaceChild(document.createTextNode(replaceWithThis),node);
+                elements.replaceChild(document.createTextNode(replaceWithThis), node);
             }
-           
         }
-    }
-        
-
+    }      
 }
